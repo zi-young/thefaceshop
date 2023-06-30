@@ -11,12 +11,163 @@
 
 #main {
   width: 100%;
-  height: 600px;
-  background: #ddd;
 }
 
 #footer {
   width: 100%;
   height: 260px;
   background: #333;
+}
+
+#notice > div .notice-title {
+  text-align: center;
+}
+#notice > div .notice-title h2 {
+  padding-top: 50px;
+}
+#notice > div .title-doubleLine {
+  padding: 30px 0;
+  width: 100%;
+}
+#notice > div .title-doubleLine p {
+  width: 100%;
+  height: 3px;
+  background: url(../img/bg_tit_line.png) repeat-x 0 0;
+}
+#notice > div .noticeBt-wrap {
+  text-align: center;
+  padding-bottom: 50px;
+}
+#notice > div .noticeBt-wrap ul {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+}
+#notice > div .noticeBt-wrap ul li {
+  flex-basis: 145px;
+  height: 40px;
+  margin-right: -1px;
+}
+#notice > div .noticeBt-wrap ul li div {
+  border: 1px solid #e1e4e8;
+  line-height: 40px;
+}
+#notice > div .noticeBt-wrap ul li div a {
+  display: block;
+  color: #555;
+}
+#notice > div .noticeBt-wrap ul li div a.addNav {
+  color: #fff;
+  background: #b68957;
+}
+#notice > div .notice-board table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#notice > div .notice-board table thead {
+  width: 100%;
+}
+#notice > div .notice-board table thead tr {
+  width: 100%;
+}
+#notice > div .notice-board table thead tr th {
+  height: 44px;
+  background: #f8f8f8;
+  border-top: 1px solid #9aa0a3;
+  border-bottom: 1px solid #9aa0a3;
+  color: #555;
+  font-size: 12px;
+}
+#notice > div .notice-board table tbody tr {
+  width: 100%;
+}
+#notice > div .notice-board table tbody tr td {
+  text-align: center;
+  color: #777;
+  font-size: 12px;
+  border-bottom: 1px solid #e1e4e8;
+  height: 56px;
+}
+#notice > div .notice-board table tbody tr td:nth-child(3) {
+  text-align: left;
+}
+#notice > div .notice-board table tbody tr td a {
+  text-decoration: none;
+  color: #777;
+  font-size: 13px;
+}
+#notice > div .notice-board .notice-page {
+  padding: 30px 0;
+}
+#notice > div .notice-board .notice-page ul {
+  display: flex;
+  justify-content: center;
+}
+#notice > div .notice-board .notice-page ul li div.pagePrev {
+  width: 27px;
+  height: 21px;
+}
+#notice > div .notice-board .notice-page ul li div.page-number {
+  padding: 2.5px 0;
+}
+#notice > div .notice-board .notice-page ul li div.page-number > span {
+  display: inline-block;
+}
+#notice > div .notice-board .notice-page ul li div.page-number > span a {
+  display: block;
+  padding: 2px 8px;
+  color: #777;
+}
+#notice > div .notice-board .notice-page ul li div.page-number > span a:hover {
+  color: #b88857;
+}
+#notice > div .notice-board .notice-page ul li div.pageNext {
+  width: 27px;
+  height: 21px;
+}
+#notice > div .notice-search {
+  background: #f8f8f8;
+  border: 1px solid #e1e4e8;
+}
+#notice > div .notice-search > div {
+  text-align: center;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: center;
+}
+#notice > div .notice-search > div .search-left {
+  position: relative;
+  width: 133px;
+  height: 33px;
+  background: #fff url(../img/sel_bg_7.png) no-repeat 100% 50%;
+}
+#notice > div .notice-search > div .search-left > a {
+  z-index: 1;
+  position: relative;
+  display: block;
+  width: auto;
+  line-height: 33px;
+  text-align: left;
+  border: 1px solid #b68957;
+  text-indent: 15px;
+}
+#notice > div .notice-search > div .search-left .search-list {
+  display: none;
+}
+#notice > div .notice-search > div .search-right {
+  display: inline-block;
+  width: 253px;
+  height: 33px;
+  padding: 0 33px 0 12px;
+  border: 1px solid #b68957;
+  background: url(../img/btn_search_5.png) no-repeat 100% 50%;
+}
+#notice > div .notice-search > div .search-right input {
+  width: 100%;
+  height: 31px;
+  border: none;
+}
+#notice > div .notice-search > div .search-right input:focus {
+  outline: none;
 }/*# sourceMappingURL=style.css.map */

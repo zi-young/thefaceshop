@@ -17,6 +17,8 @@
     <link rel='stylesheet' href='css/reset.css'>
     <link rel='stylesheet' href='css/style.css'>
 
+    <link rel="shortcut icon" href="./favicon_io/favicon-32x32.png">
+
     <!-- 폰트어썸 -->
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -50,6 +52,62 @@
                             <li><div><a href="javascript:" title="브랜드공지">브랜드 공지</a></div></li>
                         </ul>
                     </nav>
+                    <div class="notice-board">
+                        <table style="width: 100%;">
+                            <colgroup>
+                                <col style="width: 8%;">
+                                <col style="width: 12%;">
+                                <col style="width: 60%;">
+                                <col style="width: 20%;">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>번호</th>
+                                    <th>구분</th>
+                                    <th>제목</th>
+                                    <th>날짜</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- 공지사항 목록 바인딩 -->
+                                <!-- 
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                -->
+                            </tbody>
+                        </table>
+                        <div class="notice-page">
+                            <ul>
+                                <li><div class="pagePrev"><a href="javascript:" class="pagePrevBt"><img src="./img/btn_page_prev.png" alt=""></a></div></li>
+                                <li>
+                                    <div class="page-number"></div>
+                                    <!-- 페이지네이션 자동추가 -->
+                                </li>
+                                <li><div class="pageNext"><a href="javascript:" class="pageNextBt"><img src="./img/btn_page_next.png" alt=""></a></div></li>
+                            </ul>
+                        </div>
+                        <div class="notice-search">
+                            <div>
+                                <div class="search-left">
+                                    <a href="javascript:">제목+내용</a>
+                                    <div class="search-list">
+                                        <ul>
+                                            <li><a href="javascript:">제목+내용</a></li>
+                                            <li><a href="javascript:">제목</a></li>
+                                            <li><a href="javascript:">내용</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="search-right">
+                                    <input type="text" name="search" id="search" value="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
