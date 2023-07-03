@@ -82,9 +82,12 @@
             }
             .notice-page{
                 padding: 30px 0;
+                img{display: block;}
                 ul{
                     display: flex;
                     justify-content: center;
+                    align-items: center;
+                    height: 28.5px;     
                     li{
                         div{
                             &.pagePrev{
@@ -99,13 +102,15 @@
                                         display: block;
                                         padding: 2px 8px;
                                         color: #777;
-                                        &:hover{color: #b88857}
+                                        &:hover{color: #b88857;}
+                                        &.addpage{color: #b88857;}
                                     }
                                 }
                             }
                             &.pageNext{
                                 width: 27px;
                                 height: 21px;
+                                img{display: block;}
                             }
                         }
                     }

@@ -100,9 +100,14 @@
 #notice > div .notice-board .notice-page {
   padding: 30px 0;
 }
+#notice > div .notice-board .notice-page img {
+  display: block;
+}
 #notice > div .notice-board .notice-page ul {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 28.5px;
 }
 #notice > div .notice-board .notice-page ul li div.pagePrev {
   width: 27px;
@@ -122,9 +127,15 @@
 #notice > div .notice-board .notice-page ul li div.page-number > span a:hover {
   color: #b88857;
 }
+#notice > div .notice-board .notice-page ul li div.page-number > span a.addpage {
+  color: #b88857;
+}
 #notice > div .notice-board .notice-page ul li div.pageNext {
   width: 27px;
   height: 21px;
+}
+#notice > div .notice-board .notice-page ul li div.pageNext img {
+  display: block;
 }
 #notice > div .notice-search {
   background: #f8f8f8;
